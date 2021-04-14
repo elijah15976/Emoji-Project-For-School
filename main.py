@@ -4,7 +4,7 @@ from core_functions import *
 
 bob = turtle.Turtle()
 
-bob.color((0, 100, 200))
+bob.color(#0077FF)
 bob.begin_fill()
 polygon(bob, 4, 300, "right")
 bob.end_fill()
