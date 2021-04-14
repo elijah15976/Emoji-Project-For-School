@@ -22,9 +22,14 @@ bob.end_fill()
 
 jump(bob, 75, 100)
 
-bob.color("#3F0000")
 bob.begin_fill()
 rect(bob, 25, 50, "right")
+bob.end_fill()
+
+jump(bob, -50, -75)
+
+bob.begin_fill()
+rect(bob, 100, 25, "right")
 bob.end_fill()
 
 
