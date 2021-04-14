@@ -6,10 +6,6 @@ from emoji import *
 
 em = random.randint(1, 2)
 
-bob = turtle.Turtle()
-
-bob.speed(0)
-
 print("You Got:")
 
 if em == 1:
