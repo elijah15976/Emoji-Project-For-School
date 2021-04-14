@@ -1,6 +1,6 @@
 import turtle
 import time
-from core_functions.py import *
+from core_functions import *
 
 bob = turtle.Turtle()
 
