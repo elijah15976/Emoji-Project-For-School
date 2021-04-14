@@ -1,6 +1,10 @@
+import turtle
 from core_functions import *
 
 def Moody():
+  bob = turtle.Turtle()
+  bob.speed(0)
+
   bob.color("#0077FF")
 
   #Box head
