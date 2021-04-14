@@ -12,7 +12,7 @@ def polygon(tut, side, len, lr):
     elif lr == right:
       tut.right(360/side)
 
-polygon(bob, 4, 100, right)
+polygon(bob, 4, 100, "right")
 
 
 #Put this at end of code
