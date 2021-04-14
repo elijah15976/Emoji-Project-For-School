@@ -6,19 +6,21 @@ bob = turtle.Turtle()
 
 bob.speed(0)
 
+jump(bob, -150, 150)
+
 bob.color("#0077FF")
 bob.begin_fill()
 polygon(bob, 4, 300, "right")
 bob.end_fill()
 
-jump(bob, 50, -50)
+jump(bob, -100, 100)
 
 bob.color("#3F0000")
 bob.begin_fill()
 rect(bob, 25, 50, "right")
 bob.end_fill()
 
-jump(bob, 225, -50)
+jump(bob, 75, 100)
 
 bob.color("#3F0000")
 bob.begin_fill()
