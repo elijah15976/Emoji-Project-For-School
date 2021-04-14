@@ -5,3 +5,8 @@ def polygon(tut, side, len, lr):
       tut.left(360/side)
     elif lr == "right":
       tut.right(360/side)
+
+def jump(tut, x, y):
+  tut.penup()
+  tut.goto(x, y)
+  tut.pendown()
