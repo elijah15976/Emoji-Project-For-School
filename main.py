@@ -4,6 +4,8 @@ from core_functions import *
 
 bob = turtle.Turtle()
 
+bob.speed(0)
+
 bob.color("#0077FF")
 bob.begin_fill()
 polygon(bob, 4, 300, "right")
