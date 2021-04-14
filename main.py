@@ -9,8 +9,11 @@ em = random.randint(1, 2)
 print("You Got:")
 
 if em == 1:
-    print("MOODY GUY")
-    Moody()
+  print("MOODY GUY")
+  Moody()
+elif em == 2:
+  print("HAPPY GUY")
+  Happy()
 
 
 #Put this at end of code
